@@ -1,0 +1,683 @@
+1528856842745	geckodriver	INFO	geckodriver 0.19.1
+1528856842765	geckodriver	INFO	Listening on 127.0.0.1:55757
+1528856845500	mozrunner::runner	INFO	Running command: "F:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile.H90HT8Vxk4Cd"
+1528856851880	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7324, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7324, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528856867359	Marionette	INFO	Listening on port 55771
+1528856867728	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528856867843	Marionette	DEBUG	Register listener.js for window 4294967297
+1528856868405	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1528856870342	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1528856870342	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1528856872311	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.zhixue.com/login.html"
+1528856879106	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.zhixue.com/login.html"
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528856909291	geckodriver	INFO	geckodriver 0.19.1
+1528856909301	geckodriver	INFO	Listening on 127.0.0.1:56280
+1528856912315	mozrunner::runner	INFO	Running command: "F:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile.5Fl43JCkeqMM"
+1528856914264	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528856917185	Marionette	INFO	Listening on port 56292
+1528856917804	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528856917918	Marionette	DEBUG	Register listener.js for window 4294967297
+1528856917969	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1528856919164	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1528856919164	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1528856921934	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528856926532	Marionette	DEBUG	Received DOM event "pageshow" for "https://mxtoolbox.com/SuperTool.aspx#"
+console.error: 
+  Message: Error: Source map at https://mxtoolbox.com/Public/stylesheets/maps/mx-styles-preload.css.map not found or invalid
+  Stack:
+    _fetchSourceMap/map<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/stylesheets.js:578:25
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+
+_fetchSourceMap/map<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/stylesheets.js:578:25
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+console.error: 
+  Message: Error: Source map at https://mxtoolbox.com/Public/stylesheets/maps/mx-styles-postload.css.map not found or invalid
+  Stack:
+    _fetchSourceMap/map<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/stylesheets.js:578:25
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+
+_fetchSourceMap/map<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/stylesheets.js:578:25
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://mxtoolbox.com
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+[Parent 6684, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6684, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528857481224	geckodriver	INFO	geckodriver 0.19.1
+1528857481246	geckodriver	INFO	Listening on 127.0.0.1:57670
+1528857484215	mozrunner::runner	INFO	Running command: "F:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile.Wz421khbZHij"
+1528857486228	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528857489561	Marionette	INFO	Listening on port 57683
+1528857489765	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528857489849	Marionette	DEBUG	Register listener.js for window 4294967297
+1528857490097	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1528857491908	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1528857491908	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1528857494934	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528857499063	Marionette	DEBUG	Received DOM event "pageshow" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528857504493	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6620, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528866538516	geckodriver	INFO	geckodriver 0.19.1
+1528866538550	geckodriver	INFO	Listening on 127.0.0.1:59324
+1528866541561	mozrunner::runner	INFO	Running command: "F:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile.bPPVDmTbjsVt"
+1528866548827	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528866562520	Marionette	INFO	Listening on port 59332
+1528866562639	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528866562748	Marionette	DEBUG	Register listener.js for window 4294967297
+1528866562967	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1528866565826	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1528866565827	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1528866568977	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528866571537	Marionette	DEBUG	Received DOM event "pageshow" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528866577090	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5992, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528866655569	geckodriver	INFO	geckodriver 0.19.1
+1528866655579	geckodriver	INFO	Listening on 127.0.0.1:59701
+1528866658632	mozrunner::runner	INFO	Running command: "F:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile.K1JYIpri82Mh"
+1528866660312	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528866663215	Marionette	INFO	Listening on port 59709
+1528866663987	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528866664081	Marionette	DEBUG	Register listener.js for window 4294967297
+1528866664117	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1528866665401	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1528866665401	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1528866667926	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528866673141	Marionette	DEBUG	Received DOM event "pageshow" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528866678498	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+console.error: 
+  Message: Error: Source map at https://mxtoolbox.com/Public/stylesheets/maps/mx-styles-preload.css.map not found or invalid
+  Stack:
+    _fetchSourceMap/map<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/stylesheets.js:578:25
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+
+_fetchSourceMap/map<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/stylesheets.js:578:25
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+console.error: 
+  Protocol error (unknownError): Source map at https://mxtoolbox.com/Public/stylesheets/maps/mx-styles-preload.css.map not found or invalid
+console.error: 
+  Message: Error: Source map at https://mxtoolbox.com/Public/stylesheets/maps/mx-styles-postload.css.map not found or invalid
+  Stack:
+    _fetchSourceMap/map<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/stylesheets.js:578:25
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+
+_fetchSourceMap/map<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/stylesheets.js:578:25
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+console.error: 
+  Protocol error (unknownError): Source map at https://mxtoolbox.com/Public/stylesheets/maps/mx-styles-postload.css.map not found or invalid
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/netmonitor/src/conne1528867086226	mozrunner::runner	INFO	Running command: "F:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile.SLNvsU5iP1th"
+1528867088148	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+[Parent 1384, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528867091427	Marionette	INFO	Listening on port 60079
+1528867091581	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528867091695	Marionette	DEBUG	Register listener.js for window 4294967297
+1528867091909	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1528867094462	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1528867094463	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1528867097179	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528867102735	Marionette	DEBUG	Received DOM event "pageshow" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528867108205	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Parent 1384, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1384, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528867199047	geckodriver	INFO	geckodriver 0.19.1
+1528867199059	geckodriver	INFO	Listening on 127.0.0.1:60406
+1528867202127	mozrunner::runner	INFO	Running command: "F:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile.XUK3cCa3EHYL"
+1528867203004	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528867205996	Marionette	INFO	Listening on port 60414
+1528867206072	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528867206189	Marionette	DEBUG	Register listener.js for window 4294967297
+1528867206683	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1528867208313	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1528867208313	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1528867211298	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528867216498	Marionette	DEBUG	Received DOM event "pageshow" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528867221882	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528867280045	geckodriver	INFO	geckodriver 0.19.1
+1528867280055	geckodriver	INFO	Listening on 127.0.0.1:60607
+1528867283108	mozrunner::runner	INFO	Running command: "F:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile.2ZChx1t2RDL7"
+1528867283941	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+[Parent 6372, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528867286995	Marionette	INFO	Listening on port 60615
+1528867287016	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528867287155	Marionette	DEBUG	Register listener.js for window 4294967297
+1528867287535	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1528867289782	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1528867289782	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1528867292157	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528867297371	Marionette	DEBUG	Received DOM event "pageshow" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528867302752	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 9232, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9232, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9992, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9992, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528867578249	geckodriver	INFO	geckodriver 0.19.1
+1528867578280	geckodriver	INFO	Listening on 127.0.0.1:60877
+1528867581273	mozrunner::runner	INFO	Running command: "F:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile.ds91oNNvOubA"
+1528867583281	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+[Parent 5240, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528867586118	Marionette	INFO	Listening on port 60887
+1528867586675	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528867586782	Marionette	DEBUG	Register listener.js for window 4294967297
+1528867586916	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1528867589071	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1528867589072	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1528867592620	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528867598678	Marionette	DEBUG	Received DOM event "pageshow" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528867604072	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528867619406	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528867657657	geckodriver	INFO	geckodriver 0.19.1
+1528867657672	geckodriver	INFO	Listening on 127.0.0.1:61101
+1528867660827	mozrunner::runner	INFO	Running command: "F:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile.Ja48o9RaF9YF"
+1528867663069	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10800, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528867665397	Marionette	INFO	Listening on port 61109
+1528867666228	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528867666317	Marionette	DEBUG	Register listener.js for window 4294967297
+1528867666367	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1528867667646	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1528867667646	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1528867670422	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528867675040	Marionette	DEBUG	Received DOM event "pageshow" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528867680406	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528867695750	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 6100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528876622525	geckodriver	INFO	geckodriver 0.19.1
+1528876622546	geckodriver	INFO	Listening on 127.0.0.1:63370
+1528876625514	mozrunner::runner	INFO	Running command: "F:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile.ZFuz4YKXx3tB"
+1528876627462	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528876630657	Marionette	INFO	Listening on port 63378
+1528876630777	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528876630887	Marionette	DEBUG	Register listener.js for window 4294967297
+1528876631024	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1528876633088	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1528876633088	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1528876635713	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528876642597	Marionette	DEBUG	Received DOM event "pageshow" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528876651043	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528876666404	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528876681765	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528876697293	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528876890234	geckodriver	INFO	geckodriver 0.19.1
+1528876890268	geckodriver	INFO	Listening on 127.0.0.1:63629
+1528876893658	mozrunner::runner	INFO	Running command: "F:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile.Znpe3YmF6cNn"
+1528876895912	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+1528876899697	Marionette	INFO	Listening on port 63652
+1528876899823	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528876900066	Marionette	DEBUG	Register listener.js for window 4294967297
+1528876900294	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1528876902325	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1528876902325	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1528876905607	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528876910333	Marionette	DEBUG	Received DOM event "pageshow" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528876918778	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528876934192	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528876949529	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528876964839	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528876980177	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528876995589	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877010916	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877026230	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877041553	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877062198	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877077524	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877092825	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528877348028	geckodriver	INFO	geckodriver 0.19.1
+1528877348039	geckodriver	INFO	Listening on 127.0.0.1:64433
+1528877351074	mozrunner::runner	INFO	Running command: "F:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile.VeF0sizGyZaw"
+1528877353123	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528877356221	Marionette	INFO	Listening on port 64441
+1528877356383	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528877356501	Marionette	DEBUG	Register listener.js for window 4294967297
+1528877356564	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1528877358643	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1528877358644	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1528877361640	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528877367263	Marionette	DEBUG	Received DOM event "pageshow" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528877375654	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877405992	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877436371	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877466693	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877497130	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877527483	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877557797	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877588099	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877618553	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877648855	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877679171	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877709473	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877739782	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877770134	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877800458	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877830834	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877861144	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877891448	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877921760	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877952069	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528877982379	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878012706	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878043039	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878073344	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878103705	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878134018	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878164333	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878194650	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878224995	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878255318	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878285663	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878315981	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878346360	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878376673	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878406992	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878437320	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878467663	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878497989	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878528326	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878558667	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878588995	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878619325	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878649648	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878679970	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528878710292	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Parent 7812, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7812, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528879000992	geckodriver	INFO	geckodriver 0.19.1
+1528879001021	geckodriver	INFO	Listening on 127.0.0.1:2093
+1528879003888	mozrunner::runner	INFO	Running command: "F:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile.MInKehzzGDeT"
+1528879006942	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+[Parent 8292, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528879010417	Marionette	INFO	Listening on port 2102
+1528879011389	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528879011477	Marionette	DEBUG	Register listener.js for window 4294967297
+1528879011516	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1528879013579	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1528879013579	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1528879017229	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528879023046	Marionette	DEBUG	Received DOM event "pageshow" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528879031490	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528879061821	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528879092259	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528879122582	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528879152936	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528879183250	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528879213563	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Parent 8292, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528879430041	geckodriver	INFO	geckodriver 0.19.1
+1528879430052	geckodriver	INFO	Listening on 127.0.0.1:2862
+1528879433069	mozrunner::runner	INFO	Running command: "F:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile.67X1aOLWrlQk"
+1528879435072	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+[Parent 10800, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6564, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528879438600	Marionette	INFO	Listening on port 2870
+1528879438999	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528879439096	Marionette	DEBUG	Register listener.js for window 4294967297
+1528879439146	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1528879440396	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1528879440396	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1528879443046	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528879449343	Marionette	DEBUG	Received DOM event "pageshow" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528879457801	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528879488126	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 628, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 628, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528879607841	geckodriver	INFO	geckodriver 0.19.1
+1528879607863	geckodriver	INFO	Listening on 127.0.0.1:3268
+1528879610880	mozrunner::runner	INFO	Running command: "F:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile.lhNgrvhTKdIR"
+1528879612895	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528879616129	Marionette	INFO	Listening on port 3276
+1528879616255	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528879616365	Marionette	DEBUG	Register listener.js for window 4294967297
+1528879616516	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1528879619159	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1528879619159	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1528879621743	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528879626697	Marionette	DEBUG	Received DOM event "pageshow" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528879635106	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528879665562	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528879695915	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528879726804	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528879757152	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528879787471	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528879817867	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528879848253	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528879878558	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528879908858	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528879939163	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528879969482	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528879999802	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528880030292	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528880060608	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528880090914	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528880121225	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528880151542	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528880181846	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528880525407	geckodriver	INFO	geckodriver 0.19.1
+1528880525420	geckodriver	INFO	Listening on 127.0.0.1:3923
+1528880528468	mozrunner::runner	INFO	Running command: "F:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile.ceouMZSaIsnH"
+1528880530348	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528880532939	Marionette	INFO	Listening on port 3931
+1528880533791	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528880533879	Marionette	DEBUG	Register listener.js for window 4294967297
+1528880533915	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1528880535223	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1528880535223	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1528880538359	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528880544807	Marionette	DEBUG	Received DOM event "pageshow" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528880553204	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528880583562	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528880613930	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528880644260	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528880674589	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528880704990	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528880735317	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528880765619	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528880795918	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Parent 10916, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528883228830	geckodriver	INFO	geckodriver 0.19.1
+1528883228850	geckodriver	INFO	Listening on 127.0.0.1:5607
+1528883231891	mozrunner::runner	INFO	Running command: "F:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile.ghWhK1zECRlf"
+1528883234017	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+JavaScript error: resource://addoninstaller/common.js, line 109: SyntaxError: "0"-prefixed octal literals and octal escape sequences are deprecated; for octal literals use the "0o" prefix instead
+[Parent 7716, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8560, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 8560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528883237139	Marionette	INFO	Listening on port 5615
+1528883237314	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528883237423	Marionette	DEBUG	Register listener.js for window 4294967297
+1528883237607	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1528883240395	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1528883240395	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1528883243033	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528883247924	Marionette	DEBUG	Received DOM event "pageshow" for "https://mxtoolbox.com/SuperTool.aspx#"
+1528883256424	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883286770	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883317123	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883347450	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883377776	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883408081	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883438383	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883468786	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883499087	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883529384	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883559689	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883589999	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883620373	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883650812	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883681125	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883711503	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883741802	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883772112	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883802421	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883832723	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883863023	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883893324	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883923695	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883954009	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528883984315	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884014637	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884044959	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884075280	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884105602	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884135995	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884166361	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884196685	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884227000	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884257311	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884287625	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884317960	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884348275	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884378598	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884408919	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884439253	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884469576	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884499900	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884530219	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884560584	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884590903	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884621220	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884651552	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884681890	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884712221	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884742550	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884772880	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884803207	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884833534	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884863857	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884894184	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884924524	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884954939	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528884985281	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885015616	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885045964	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885076326	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885106669	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885137014	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885167347	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885197681	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885228011	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885258372	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885288723	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885319069	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885349434	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885379858	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885410199	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885440548	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885470901	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885501263	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885531622	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885561966	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885592354	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885622734	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885653081	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885683430	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1528885713809	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Parent 7716, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7056, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7056, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

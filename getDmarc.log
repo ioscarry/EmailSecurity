@@ -1,0 +1,1640 @@
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.pku.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 45578
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.pku.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+pku.edu.cn.		300	IN	SOA	ns.PKU.EDU.CN. hostmaster.PKU.EDU.CN. 2018061302 120 300 1209600 3600
+
+;; Query time: 2 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:29 CST 2018
+;; MSG SIZE  rcvd: 106
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.tsinghua.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 9820
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.tsinghua.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+tsinghua.edu.cn.	600	IN	SOA	dns2.edu.cn. szhu.net.tsinghua.edu.cn. 2099124196 7200 900 604800 600
+
+;; Query time: 2 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:29 CST 2018
+;; MSG SIZE  rcvd: 122
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.fudan.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 30882
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.fudan.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+fudan.edu.cn.		3600	IN	SOA	ns.fudan.edu.cn. root.ns.fudan.edu.cn. 2973 18000 14400 3600000 86400
+
+;; Query time: 30 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:29 CST 2018
+;; MSG SIZE  rcvd: 92
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.whu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57633
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.whu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+whu.edu.cn.		7200	IN	SOA	dns.whu.edu.cn. master.whu.edu.cn. 1703032019 300 7200 3600000 7200
+
+;; Query time: 99 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:29 CST 2018
+;; MSG SIZE  rcvd: 93
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.ruc.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33050
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.ruc.edu.cn.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.ruc.edu.cn.	3600	IN	TXT	"v=DMARC1; p=none; fo=1; ruf=mailto:dmarc@qiye.163.com; rua=mailto:dmarc_report@qiye.163.com"
+
+;; Query time: 3 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:29 CST 2018
+;; MSG SIZE  rcvd: 150
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.sjtu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 31604
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.sjtu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+sjtu.edu.cn.		3600	IN	SOA	dns.sjtu.edu.cn. hostmaster.sjtu.edu.cn. 1806131429 10800 3600 604800 3600
+
+;; Query time: 27 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:29 CST 2018
+;; MSG SIZE  rcvd: 98
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.nju.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 22719
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.nju.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+nju.edu.cn.		1800	IN	SOA	ns.nju.edu.cn. mail.nju.edu.cn. 1599 28800 3600 604800 1800
+
+;; Query time: 33 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:29 CST 2018
+;; MSG SIZE  rcvd: 90
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.nudt.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 46301
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.nudt.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+nudt.edu.cn.		10800	IN	SOA	pdns.nudt.edu.cn. root.pdns.nudt.edu.cn. 2016070749 1800 3600 604800 86400
+
+;; Query time: 26 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:29 CST 2018
+;; MSG SIZE  rcvd: 93
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.mail.sysu.edu.cn　
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 26512
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.mail.sysu.edu.cn\227\128\128. IN	TXT
+
+;; AUTHORITY SECTION:
+.			10800	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018061300 1800 900 604800 86400
+
+;; Query time: 214 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 130
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.jlu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 45081
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.jlu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+jlu.edu.cn.		3600	IN	SOA	dns.jlu.edu.cn. master.jlu.edu.cn. 2018060801 10800 32400 604800 86400
+
+;; Query time: 17 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 93
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.ustc.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 37192
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.ustc.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+ustc.edu.cn.		600	IN	SOA	ns.ustc.edu.cn. james.ustc.edu.cn. 2068 1200 900 604800 600
+
+;; Query time: 28 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 92
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.hust.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 45786
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.hust.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+hust.edu.cn.		300	IN	SOA	dns1.hust.edu.cn. master.hust.edu.cn. 1802231836 120 120 604800 300
+
+;; Query time: 35 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 95
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.scu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 4558
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.scu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+scu.edu.cn.		3600	IN	SOA	dart.scu.edu.cn. root.scu.edu.cn. 2018061303 3600 300 86400 3600
+
+;; Query time: 31 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 92
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.bnu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 44088
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.bnu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+bnu.edu.cn.		10800	IN	SOA	ns.bnu.edu.cn. info.bnu.edu.cn. 2100001710 10800 3600 604800 10800
+
+;; Query time: 3 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 90
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.nankai.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44470
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.nankai.edu.cn.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.nankai.edu.cn.	3600	IN	TXT	"v=DMARC1; p=none; fo=1; ruf=mailto:dmarc@qiye.163.com; rua=mailto:dmarc_report@qiye.163.com"
+
+;; Query time: 4 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 153
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.mail.xjtu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 2312
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.mail.xjtu.edu.cn.	IN	TXT
+
+;; AUTHORITY SECTION:
+xjtu.edu.cn.		3600	IN	SOA	dec3000.xjtu.edu.cn. root.dec3000.xjtu.edu.cn. 1510301754 1800 1800 3600 3600
+
+;; Query time: 20 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 112
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.csu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 61153
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.csu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+csu.edu.cn.		60	IN	SOA	ns.csu.edu.cn. hostmaster.f51.its.csu.edu.cn. 2018061202 10800 3600 604800 60
+
+;; Query time: 29 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 114
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.tongji.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 22696
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.tongji.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+tongji.edu.cn.		3600	IN	SOA	dns.tongji.edu.cn. root.tongji.edu.cn. 2018061300 7200 600 1209600 3600
+
+;; Query time: 30 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 94
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.tju.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11196
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.tju.edu.cn.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.tju.edu.cn.	3600	IN	TXT	"v=dmarc1;p=none;fo=1;ruf=mailto:dmarc@qiye.163.com;rua=mailto:dmarc_report@qiye.163.com"
+
+;; Query time: 4 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 146
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.sdu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 21288
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.sdu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+sdu.edu.cn.		1800	IN	SOA	sdunetnms.sdu.edu.cn. root.sdunetnms.sdu.edu.cn. 2017071518 3600 1800 432000 21600
+
+;; Query time: 10 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 97
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.hit.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 10935
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.hit.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+hit.edu.cn.		900	IN	SOA	hit01.hit.edu.cn. root.hit1.hit.edu.cn. 2005034215 600 300 2419200 900
+
+;; Query time: 22 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 108
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.xmu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 8972
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.xmu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+xmu.edu.cn.		10800	IN	SOA	ns1.xmu.edu.cn. vhost.xmu.edu.cn. 2018061302 10800 900 1814400 10800
+
+;; Query time: 46 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 92
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.pub.seu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 18452
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.pub.seu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+pub.seu.edu.cn.		3600	IN	SOA	seic2.seu.edu.cn. root.seic2.seu.edu.cn. 2014062003 3600 1800 604800 3600
+
+;; Query time: 33 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 107
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.mail.neu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 3773
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.mail.neu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+neu.edu.cn.		10800	IN	SOA	ns.neu.edu.cn. wzk.mail.neu.edu.cn. 2018060600 28800 7200 604800 86400
+
+;; Query time: 13 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 104
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.cqu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 5969
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.cqu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+cqu.edu.cn.		3600	IN	SOA	ns.cqu.edu.cn. postmaster.cqu.edu.cn. 2018061301 28800 7200 604800 3600
+
+;; Query time: 37 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 96
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.admin.ecnu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 51550
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.admin.ecnu.edu.cn.	IN	TXT
+
+;; AUTHORITY SECTION:
+ecnu.edu.cn.		3600	IN	SOA	yingtao.ecnu.edu.cn. master.ecnu.edu.cn. 2017092601 14400 7200 604800 86400
+
+;; Query time: 30 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 115
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.dlut.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 54214
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.dlut.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+dlut.edu.cn.		10800	IN	SOA	cedrus.dlut.edu.cn. ygh.dlut.edu.cn. 2018052900 10800 4800 604800 432000
+
+;; Query time: 19 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 94
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.bit.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 43440
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.bit.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+bit.edu.cn.		0	IN	SOA	dns.bit.edu.cn. hostmaster.bit.edu.cn. 2018060601 288 300 6048 864
+
+;; Query time: 46 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 97
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.scut.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 40976
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.scut.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+scut.edu.cn.		1800	IN	SOA	scutsv33.scut.edu.cn. postmaster.scutsv33.scut.edu.cn. 120681 3600 720 604800 1800
+
+;; Query time: 45 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 103
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.cau.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58131
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.cau.edu.cn.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.cau.edu.cn.	3600	IN	TXT	"v=DMARC1;p=none;ruf=mailto:dmarc@cau.edu.cn;rua=mailto:dmarc_report@cau.edu.cn"
+
+;; Query time: 85 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:30 CST 2018
+;; MSG SIZE  rcvd: 137
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.hnu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 21614
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.hnu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+hnu.edu.cn.		3600	IN	SOA	DNS.hnu.edu.cn. . 94 3600 600 86400 3600
+
+;; Query time: 28 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:31 CST 2018
+;; MSG SIZE  rcvd: 85
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.mail.ccnu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 60684
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.mail.ccnu.edu.cn.	IN	TXT
+
+;; AUTHORITY SECTION:
+ccnu.edu.cn.		3600	IN	SOA	ns.ccnu.edu.cn. postmaster.ccnu.edu.cn. 2018060603 28800 7200 604800 3600
+
+;; Query time: 22 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:31 CST 2018
+;; MSG SIZE  rcvd: 113
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.lzu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 64139
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.lzu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+lzu.edu.cn.		3600	IN	SOA	spin.lzu.edu.cn. postmaster.spin.lzu.edu.cn. 1528878301 7200 1200 604800 3600
+
+;; Query time: 28 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:31 CST 2018
+;; MSG SIZE  rcvd: 98
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.uestc.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 41477
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.uestc.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+uestc.edu.cn.		7200	IN	SOA	dns.uestc.edu.cn. lixiaodong.uestc.edu.cn. 2017101201 10 1800 604800 259200
+
+;; Query time: 32 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:31 CST 2018
+;; MSG SIZE  rcvd: 99
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.whut.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54666
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.whut.edu.cn.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.whut.edu.cn.	3600	IN	TXT	"v=DMARC1; p=none; fo=1; ruf= mailto:dmarc@qiye.163.com; rua= mailto:dmarc_report@qiye.163.com"
+
+;; Query time: 21 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:31 CST 2018
+;; MSG SIZE  rcvd: 153
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.cug.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37470
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.cug.edu.cn.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.cug.edu.cn.	600	IN	TXT	"v=DMARC1; p=none; sp=none; ruf=mailto:dmarc@qiye.163.com; rua=dmarc_report@qiye.163.com"
+
+;; Query time: 20 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:31 CST 2018
+;; MSG SIZE  rcvd: 146
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.nenu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55985
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.nenu.edu.cn.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.nenu.edu.cn.	86400	IN	TXT	"v=DMARC1;p=none;fo=1;ruf=mailto:dmarc@qiye.163.com;rua=mailto:dmarc_report@qiye.163.com"
+
+;; Query time: 18 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:31 CST 2018
+;; MSG SIZE  rcvd: 147
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.ustb.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 46906
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.ustb.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+ustb.edu.cn.		7200	IN	SOA	dns.ustb.edu.cn. root.dns.ustb.edu.cn. 1484 10800 3600 604800 86400
+
+;; Query time: 29 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:31 CST 2018
+;; MSG SIZE  rcvd: 92
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.chd.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 63985
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.chd.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+chd.edu.cn.		1800	IN	SOA	ns.chd.edu.cn. mail.chd.edu.cn. 680 3600 3600 604800 1800
+
+;; Query time: 19 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:31 CST 2018
+;; MSG SIZE  rcvd: 90
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.bjtu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 34202
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.bjtu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+bjtu.edu.cn.		3600	IN	SOA	mars.njtu.edu.cn. wxfan.bjtu.edu.cn. 2018061301 86400 7200 2419200 3600
+
+;; Query time: 7 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:31 CST 2018
+;; MSG SIZE  rcvd: 105
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.cumt.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 48353
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.cumt.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+cumt.edu.cn.		3600	IN	SOA	dns.cumt.edu.cn. wdf.cumt.edu.cn. 2018041008 28800 1800 3600000 3600
+
+;; Query time: 838 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:32 CST 2018
+;; MSG SIZE  rcvd: 91
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.pumc.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 46788
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.pumc.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+pumc.edu.cn.		3600	IN	SOA	ns.pumc.edu.cn. postmaster.pumc.edu.cn. 2018051101 28800 7200 604800 3600
+
+;; Query time: 803 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:33 CST 2018
+;; MSG SIZE  rcvd: 97
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.njau.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 13628
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.njau.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+njau.edu.cn.		7200	IN	SOA	nau.njau.edu.cn. master.njau.edu.cn. 2017121860 60 60 3600000 7200
+
+;; Query time: 37 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:33 CST 2018
+;; MSG SIZE  rcvd: 94
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.ecust.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 1750
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.ecust.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+ecust.edu.cn.		10800	IN	SOA	dns1.ecust.edu.cn. root.ecust.edu.cn. 201204939 86400 3600 604800 10800
+
+;; Query time: 33 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:33 CST 2018
+;; MSG SIZE  rcvd: 94
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.mail.hzau.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 30870
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.mail.hzau.edu.cn.	IN	TXT
+
+;; AUTHORITY SECTION:
+hzau.edu.cn.		10800	IN	SOA	dns. root.dns.hzau.edu.cn. 2010051440 3600 600 86400 14400
+
+;; Query time: 22 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:33 CST 2018
+;; MSG SIZE  rcvd: 122
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.njnu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 36040
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.njnu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+njnu.edu.cn.		300	IN	SOA	pine.njnu.edu.cn. master.njnu.edu.cn. 1803141310 1800 600 360000000 300
+
+;; Query time: 32 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:33 CST 2018
+;; MSG SIZE  rcvd: 95
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.swjtu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 22750
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.swjtu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+swjtu.edu.cn.		10800	IN	SOA	pridns.swjtu.edu.cn. guanli.swjtu.edu.cn. 2017062794 5400 1080 604800 86400
+
+;; Query time: 32 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:33 CST 2018
+;; MSG SIZE  rcvd: 98
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.swu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 21727
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.swu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+swu.edu.cn.		3600	IN	SOA	ns.swu.edu.cn. postmaster.swu.edu.cn. 2018060601 28800 10800 604800 3600
+
+;; Query time: 37 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:33 CST 2018
+;; MSG SIZE  rcvd: 96
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.ouc.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 18286
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.ouc.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+ouc.edu.cn.		3600	IN	SOA	dns17.ouc.edu.cn. hostmaster.ouc.edu.cn. 530 900 600 86400 3600
+
+;; Query time: 17 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:33 CST 2018
+;; MSG SIZE  rcvd: 99
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.hhu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 24983
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.hhu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+hhu.edu.cn.		10800	IN	SOA	hhu.edu.cn. root.hhu.edu.cn. 2013053101 10800 3600 432000 43200
+
+;; Query time: 33 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:33 CST 2018
+;; MSG SIZE  rcvd: 87
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.qq.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8103
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.qq.com.			IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.qq.com.		2923	IN	TXT	"v=DMARC1; p=none; rua=mailto:mailauth-reports@qq.com"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:33 CST 2018
+;; MSG SIZE  rcvd: 107
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.mail.njust.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 5495
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.mail.njust.edu.cn.	IN	TXT
+
+;; AUTHORITY SECTION:
+njust.edu.cn.		7200	IN	SOA	njust0.njust.edu.cn. master.njust.edu.cn. 2017050625 120 3600 3600000 7200
+
+;; Query time: 33 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:33 CST 2018
+;; MSG SIZE  rcvd: 115
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.hrbeu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 51631
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.hrbeu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+hrbeu.edu.cn.		10800	IN	SOA	hrbeu.hrbeu.edu.cn.hrbeu.edu.cn. admin.hrbeu.edu.cn.hrbeu.edu.cn. 2100000753 10800 4800 604800 432000
+
+;; Query time: 21 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:33 CST 2018
+;; MSG SIZE  rcvd: 121
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.upc.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 33092
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.upc.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+upc.edu.cn.		3600	IN	SOA	dns1.upc.edu.cn. root.dns1.upc.edu.cn. 1528874869 3600 3600 86400 3600
+
+;; Query time: 15 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:33 CST 2018
+;; MSG SIZE  rcvd: 92
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.nuaa.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 41608
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.nuaa.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+nuaa.edu.cn.		10800	IN	SOA	dns.nuaa.edu.cn. root.dns.nuaa.edu.cn. 20131120 28800 7200 604800 86400
+
+;; Query time: 34 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:33 CST 2018
+;; MSG SIZE  rcvd: 92
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.zzu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 63776
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.zzu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+zzu.edu.cn.		10800	IN	SOA	dns.zzu.edu.cn. zzj.zzu.edu.cn. 2016123196 1080 1800 28800 36000
+
+;; Query time: 32 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:33 CST 2018
+;; MSG SIZE  rcvd: 90
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.suda.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36659
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.suda.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+suda.edu.cn.		3600	IN	SOA	xiyuan.suda.edu.cn. root.liuyuan.suda.edu.cn. 30015986 3600 300 3600000 3600
+
+;; Query time: 37 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:33 CST 2018
+;; MSG SIZE  rcvd: 114
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.sufe.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 43651
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.sufe.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+sufe.edu.cn.		3600	IN	SOA	dns1.shufe.edu.cn. root.shufe.edu.cn. 2018061301 3600 300 86400 3600
+
+;; Query time: 29 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:33 CST 2018
+;; MSG SIZE  rcvd: 105
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.nwafu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27317
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.nwafu.edu.cn.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.nwafu.edu.cn.	3600	IN	TXT	"v=DMARC1; p=none; fo=1; ruf=mailto:dmarc@qiye.163.com; rua=mailto:dmarc_report@qiye.163.com"
+
+;; Query time: 23 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:33 CST 2018
+;; MSG SIZE  rcvd: 152
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.cupl.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58638
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.cupl.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+cupl.edu.cn.		3600	IN	SOA	ns.cupl.edu.cn. postmaster.cupl.edu.cn. 2018061301 28800 7200 604800 3600
+
+;; Query time: 4 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:33 CST 2018
+;; MSG SIZE  rcvd: 97
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.hfut.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14055
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.hfut.edu.cn.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.hfut.edu.cn.	900	IN	TXT	"v=DMARC1; p=none; fo=1; ruf=mailto:dmarc@qiye.163.com; rua=mailto:dmarc_report@qiye.163.com"
+
+;; Query time: 829 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:34 CST 2018
+;; MSG SIZE  rcvd: 151
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.bupt.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 53669
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.bupt.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+bupt.edu.cn.		1800	IN	SOA	ns.buptnet.edu.cn. admin.bupt.edu.cn. 2100000298 10800 900 604800 86400
+
+;; Query time: 2 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:34 CST 2018
+;; MSG SIZE  rcvd: 106
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.xidian.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 55444
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.xidian.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+xidian.edu.cn.		3600	IN	SOA	ns1.xidian.edu.cn. root.xidian.edu.cn. 2018061303 30 150 115200 3600
+
+;; Query time: 19 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:34 CST 2018
+;; MSG SIZE  rcvd: 94
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.m.scnu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 25862
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.m.scnu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+scnu.edu.cn.		0	IN	SOA	scnu.edu.cn. root.hsnc.scnu.edu.cn. 2018061201 7200 3600 345600 43200
+
+;; Query time: 37 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:34 CST 2018
+;; MSG SIZE  rcvd: 117
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.shu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 32081
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.shu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+shu.edu.cn.		3600	IN	SOA	ns.shu.edu.cn. postmaster.shu.edu.cn. 2018060701 28800 7200 604800 3600
+
+;; Query time: 29 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:34 CST 2018
+;; MSG SIZE  rcvd: 96
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.znufe.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3594
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.znufe.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+znufe.edu.cn.		1800	IN	SOA	zncd.znufe.edu.cn. root.zncd.znufe.edu.cn. 2308 21600 10800 604800 172800
+
+;; Query time: 22 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:34 CST 2018
+;; MSG SIZE  rcvd: 94
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.swufe.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 24374
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.swufe.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+swufe.edu.cn.		300	IN	SOA	pridns.swufe.edu.cn. noc.swufe.edu.cn. 2018052511 1800 1800 1814400 3600
+
+;; Query time: 830 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:35 CST 2018
+;; MSG SIZE  rcvd: 95
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.mail.buct.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 55169
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.mail.buct.edu.cn.	IN	TXT
+
+;; AUTHORITY SECTION:
+buct.edu.cn.		3600	IN	SOA	ns2.buct.edu.cn. root.buct.edu.cn. 2018060801 3600 300 86400 3600
+
+;; Query time: 99 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:35 CST 2018
+;; MSG SIZE  rcvd: 108
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.dhu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 35590
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.dhu.edu.cn.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.dhu.edu.cn.	3600	IN	TXT	"v=dmarc1; p=none; fo=1; ruf=mailto:dmarc@qiye.163.com; rua=mailto:dmarc_report@qiye.163.com"
+
+;; Query time: 30 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:35 CST 2018
+;; MSG SIZE  rcvd: 150
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.cufe.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 24849
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.cufe.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+cufe.edu.cn.		3600	IN	SOA	dns1.cufe.edu.cn. lc.cufe.edu.cn. 2018060102 3600 300 86400 3600
+
+;; Query time: 3 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:35 CST 2018
+;; MSG SIZE  rcvd: 91
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.bjut.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 47242
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.bjut.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+bjut.edu.cn.		3600	IN	SOA	dragon.bjut.edu.cn. root.bjut.edu.cn. 2018051801 60 3600 604800 3600
+
+;; Query time: 142 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:35 CST 2018
+;; MSG SIZE  rcvd: 95
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.snnu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 58049
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.snnu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+snnu.edu.cn.		3600	IN	SOA	dns.snnu.edu.cn. edu.mail.snnu.edu.cn. 2015112221 600 60 1814400 3600
+
+;; Query time: 20 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:35 CST 2018
+;; MSG SIZE  rcvd: 107
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.bjfu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 9755
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.bjfu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+bjfu.edu.cn.		10800	IN	SOA	beilin.bjfu.edu.cn. wlzhx.bjfu.edu.cn. 2018061201 10800 3600 604800 86400
+
+;; Query time: 2 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:36 CST 2018
+;; MSG SIZE  rcvd: 96
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.ysu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 25624
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.ysu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+ysu.edu.cn.		10800	IN	SOA	ysudns2.ysu.edu.cn. root.ysudns2.ysu.edu.cn. 20508 10800 3600 604800 86400
+
+;; Query time: 10 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:36 CST 2018
+;; MSG SIZE  rcvd: 95
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.uibe.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 48693
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.uibe.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+uibe.edu.cn.		3600	IN	SOA	water.uibe.edu.cn. root.uibe.edu.cn. 2018060701 3600 300 86400 3600
+
+;; Query time: 2 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:36 CST 2018
+;; MSG SIZE  rcvd: 94
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.cnu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 12469
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.cnu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+cnu.edu.cn.		3600	IN	SOA	dns.cnu.edu.cn. root.cnu.edu.cn. 2018052201 3600 300 86400 3600
+
+;; Query time: 2 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:36 CST 2018
+;; MSG SIZE  rcvd: 91
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.ncepu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 53582
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.ncepu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+ncepu.edu.cn.		3600	IN	SOA	ns.ncepu.edu.cn. postmaster.ncepu.edu.cn. 2018052901 28800 7200 604800 3600
+
+;; Query time: 3 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:36 CST 2018
+;; MSG SIZE  rcvd: 98
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.scau.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42227
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.scau.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+scau.edu.cn.		3600	IN	SOA	SCAUSV1.scau.edu.cn. postmaster.SCAUSV1.scau.edu.cn. 20150902 3600 1800 604800 3600
+
+;; Query time: 837 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:36 CST 2018
+;; MSG SIZE  rcvd: 102
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.zjnu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47178
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.zjnu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.zjnu.cn.		3600	IN	TXT	"v=DMARC1; p=none; fo=1; ruf=mailto:dmarc@qiye.163.com; rua=mailto:dmarc_report@qiye.163.com"
+
+;; Query time: 837 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:37 CST 2018
+;; MSG SIZE  rcvd: 147
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.ahu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 63563
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.ahu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+ahu.edu.cn.		3600	IN	SOA	mars.ahu.edu.cn. admin.ahu.edu.cn. 1528786231 3600 3600 86400 3600
+
+;; Query time: 31 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:37 CST 2018
+;; MSG SIZE  rcvd: 93
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.jiangnan.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 58842
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.jiangnan.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+jiangnan.edu.cn.	3600	IN	SOA	dns.jiangnan.edu.cn. root.jiangnan.edu.cn. 201710161 3600 1800 36000 3600
+
+;; Query time: 37 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:37 CST 2018
+;; MSG SIZE  rcvd: 96
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.sxu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15902
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.sxu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+sxu.edu.cn.		3600	IN	SOA	ns1.sxu.edu.cn. root.sxu.edu.cn.sxu.edu.cn. 2015062606 3600 3600 86400 3600
+
+;; Query time: 11 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:12:37 CST 2018
+;; MSG SIZE  rcvd: 112
+

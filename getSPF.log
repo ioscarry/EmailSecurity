@@ -1,0 +1,1648 @@
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT pku.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44694
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;pku.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+PKU.edu.cn.		21567	IN	TXT	"v=spf1 redirect=spf.pku.edu.cn"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 86
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT tsinghua.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39354
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;tsinghua.edu.cn.		IN	TXT
+
+;; ANSWER SECTION:
+tsinghua.edu.cn.	20984	IN	TXT	"v=spf1 redirect=spf.tsinghua.edu.cn"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 92
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT fudan.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48954
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;fudan.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+FUDAN.edu.cn.		3567	IN	TXT	"v=spf1 ip4:202.120.224.0/24 ip4:61.129.42.0/24 ip6:2001:da8:8001::/48 include:spf.icoremail.net ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 160
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT whu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32373
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;whu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+WHU.edu.cn.		7167	IN	TXT	"v=spf1 a:hwp1.icoremail.net ip4:202.114.64.0/24  include:spf.icoremail.net -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 135
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT ruc.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 17947
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;ruc.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+RUC.edu.cn.		3566	IN	TXT	"v=spf1 include:spf.163.com ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 87
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT sjtu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27449
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;sjtu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+SJTU.edu.cn.		3566	IN	TXT	"MS=847CBF4476FCA41D2A39CC1EF0376F3A08CEADC8"
+SJTU.edu.cn.		3566	IN	TXT	"v=spf1 ip4:202.112.26.0/24 ip4:202.120.2.0/24 ip4:202.121.179.0/24 -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 185
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT nju.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31629
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;nju.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+NJU.edu.cn.		3566	IN	TXT	"v=spf1 include:spf.mail.qq.com ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 91
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT nudt.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4188
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;nudt.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+nudt.edu.cn.		466	IN	TXT	"v=spf1 ip4:202.197.9.11  ip4:42.48.85.218 -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 99
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT mail.sysu.edu.cn　
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 62926
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;mail.sysu.edu.cn\227\128\128.	IN	TXT
+
+;; AUTHORITY SECTION:
+.			10766	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018061300 1800 900 604800 86400
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 123
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT jlu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26320
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;jlu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+jlu.edu.cn.		3566	IN	TXT	"v=spf1 a mx ip4:202.198.16.56 ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 86
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT ustc.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20561
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;ustc.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+USTC.edu.cn.		3566	IN	TXT	"v=spf1 ip4:202.38.64.8 ip4:202.38.64.16 ip4:202.38.64.46 ip4:202.141.160.8 ip4:222.195.68.193 ip4:202.141.161.73 ip4:195.128.10.69 ip6:2001:da8:d800::8 ip6:2001:da8:d800::46 ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 236
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT hust.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25921
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;hust.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+HUST.edu.cn.		267	IN	TXT	"v=spf1 ip4:113.57.228.210 ip4:111.175.187.190 ip4:202.114.0.240 ip4:111.175.187.188 ip4:111.175.187.189 ip4:111.175.187.182 ip4:202.114.0.230 ip4:202.114.0.231 ip6:2001:250:40 00:826E:6EAE:8BFF:FE1D:9D2A -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 266
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT scu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33076
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;scu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+scu.edu.cn.		3567	IN	TXT	"v=spf1 ip4:202.115.32.72 ip4:202.115.32.180 ip4:202.115.32.181 ip4:125.69.85.24 ip4:139.162.32.54 ip4:192.155.91.4 ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 171
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT bnu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60983
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;bnu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+BNU.edu.cn.		10767	IN	TXT	"v=spf1 ip4:219.142.121.58 ip4:202.112.81.32/27 ip4:202.112.80.0/24 ip4:114.255.218.203 ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 147
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT nankai.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32079
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;nankai.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+nankai.edu.cn.		3567	IN	TXT	"v=spf1 include:spf.163.com -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 86
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT mail.xjtu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21863
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;mail.xjtu.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+xjtu.edu.cn.		3568	IN	SOA	dec3000.xjtu.edu.cn. root.dec3000.xjtu.edu.cn. 1510301754 1800 1800 3600 3600
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 94
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT csu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58396
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;csu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+CSU.edu.cn.		269	IN	TXT	"v=spf1  ip4:202.197.64.20 ip4:202.197.64.21 -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 104
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT tongji.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33543
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;tongji.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+tongji.edu.cn.		3569	IN	TXT	"v=spf1 ip4:202.120.164.161 ip4:202.120.164.162 ip4:202.120.164.163 ip4:202.120.164.170 ip4:202.120.164.171 ip4:202.120.164.172 ip4:202.120.164.180 ip4:202.120.164.181 ip6:2001:da8:b8:124::/64 -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 251
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT tju.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18509
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;tju.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+TJU.edu.cn.		3569	IN	TXT	"v=spf1 include:spf.163.com -all"
+TJU.edu.cn.		3569	IN	TXT	"ms=2ba0d37d829774073275a41eea148f818d58b4ff"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 143
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT sdu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4824
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;sdu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+SDU.edu.cn.		1769	IN	TXT	"v=spf1 ip4:202.194.15.6 ip4:202.194.14.6 ip4:211.86.56.247 -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 119
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT hit.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4290
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;hit.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+HIT.edu.cn.		604769	IN	TXT	"v=spf1 include:spf.hit.edu.cn ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 90
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT xmu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63003
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;xmu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+xmu.edu.cn.		43169	IN	TXT	"v=spf1 mx a:mail7.xmu.edu.cn -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 85
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT pub.seu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27562
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;pub.seu.edu.cn.			IN	TXT
+
+;; AUTHORITY SECTION:
+pub.seu.edu.cn.		3569	IN	SOA	seic2.seu.edu.cn. root.seic2.seu.edu.cn. 2014062003 3600 1800 604800 3600
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 90
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT mail.neu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29378
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;mail.neu.edu.cn.		IN	TXT
+
+;; ANSWER SECTION:
+mail.NEU.edu.cn.	86369	IN	TXT	"v=spf1 redirect=_spf.neu.edu.cn"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 103
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT cqu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45890
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;cqu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+CQU.edu.cn.		3569	IN	TXT	"v=spf1 ip4:202.202.0.53 ip4:202.202.0.36 ip4:202.202.0.26 ip4:222.178.10.26 ip4:222.178.10.36 ip4:24.97.126.125 ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 172
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT admin.ecnu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15684
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;admin.ecnu.edu.cn.		IN	TXT
+
+;; ANSWER SECTION:
+admin.ECNU.edu.cn.	3569	IN	TXT	"v=spf1 ip4:202.120.88.78 ip4:202.120.88.73 ip4:139.162.32.54 -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 141
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT dlut.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48166
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;dlut.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+DLUT.edu.cn.		86369	IN	TXT	"v=spf1 ip4:202.118.66.80 ip4:202.118.66.81 ip4:202.118.66.82  ip4:202.118.65.160 mx:lists.dlut.edu.cn mx:mx1.dlut.edu.cn mx:mx2.dlut.edu.cn mx:mail.dlut.edu.cn -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 222
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT bit.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19356
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;bit.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+bit.edu.cn.		0	IN	TXT	"v=spf1 ip4:202.204.80.7 ~all"
+
+;; Query time: 57 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 80
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT scut.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8172
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;scut.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+SCUT.edu.cn.		1769	IN	TXT	"MS=D7C9C4ABF17FE577B3147ECB307CB7618E56ABE9"
+SCUT.edu.cn.		1769	IN	TXT	"v=spf1 ip4:202.38.193.0/24 ip6:2001:da8:2000:2193::/64 -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 173
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT cau.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28185
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;cau.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+cau.edu.cn.		3569	IN	TXT	"v=spf1 ip4:114.251.217.111 ip4:114.251.217.10 ip4:114.251.217.13 a:hwp1.icoremail.net ip6:2001:250:209:B02::171 include:spf.sendcloud.org -all"
+
+;; Query time: 131 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 194
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT hnu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38103
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;hnu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+hnu.edu.cn.		86370	IN	TXT	"v=spf1 ip4:210.43.96.251 ip6:2001:250:4402:3::ee ~all"
+
+;; Query time: 10 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 105
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT mail.ccnu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64571
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;mail.ccnu.edu.cn.		IN	TXT
+
+;; ANSWER SECTION:
+mail.ccnu.edu.cn.	3570	IN	TXT	"v=spf1 include:spf.mail.qq.com ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 93
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT lzu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14795
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;lzu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+lzu.edu.cn.		3570	IN	TXT	"v=spf1 ip4:61.178.220.101 ip4:202.201.0.205 include:spf.icoremail.net ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:55 CST 2018
+;; MSG SIZE  rcvd: 126
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT uestc.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14317
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;uestc.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+UESTC.edu.cn.		3570	IN	TXT	"v=spf1 ip4:202.112.14.176 include:spf.icoremail.net ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 116
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT whut.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45481
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;whut.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+WHUT.edu.cn.		3570	IN	TXT	"v=spf1 include:spf.163.com -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 89
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT cug.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34430
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;cug.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+cug.edu.cn.		571	IN	TXT	"v=spf1 include:spf.163.com -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 83
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT nenu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30228
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;nenu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+nenu.edu.cn.		86371	IN	TXT	"v=spf1 include:spf.163.com -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 84
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT ustb.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53145
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;ustb.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+ustb.edu.cn.		7171	IN	TXT	"v=spf1 ip4:202.204.60.0/26 -all"
+
+;; Query time: 1 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 84
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT chd.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57488
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;chd.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+chd.edu.cn.		571	IN	TXT	"v=spf1 include:spf.163.com -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 83
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT bjtu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36264
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;bjtu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+BJTU.edu.cn.		3571	IN	TXT	"v=spf1 ip4:218.249.29.198/24 ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 91
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT cumt.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4252
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;cumt.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+cumt.edu.cn.		3571	IN	TXT	"v=spf1 include:spf.mail.qq.com ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 88
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT pumc.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39850
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;pumc.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+pumc.edu.cn.		3571	IN	TXT	"v=spf1 mx:222.28.160.113 mx:222.28.160.160 mx:124.205.240.77 ~all"
+pumc.edu.cn.		3571	IN	TXT	"v=spf1 ip4:222.28.160.160 ip4:222.28.160.113 ip4:124.205.240.77 ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 199
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT njau.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44774
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;njau.edu.cn.			IN	TXT
+
+;; AUTHORITY SECTION:
+njau.edu.cn.		7171	IN	SOA	nau.njau.edu.cn. master.njau.edu.cn. 2017121860 60 60 3600000 7200
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 87
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT ecust.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29984
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;ecust.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+ecust.edu.cn.		86371	IN	TXT	"v=spf1 ip4:202.120.111.20 ip4:202.120.111.19 ip4:202.120.111.26 -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 122
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT mail.hzau.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27789
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;mail.hzau.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+hzau.edu.cn.		10773	IN	SOA	dns. root.dns.hzau.edu.cn. 2010051440 3600 600 86400 14400
+
+;; Query time: 1 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 104
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT njnu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55940
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;njnu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+njnu.edu.cn.		573	IN	TXT	"MS=ms53680165"
+njnu.edu.cn.		573	IN	TXT	"v=spf1 ip4:223.2.10.51 ip4:223.2.10.52 ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 122
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT swjtu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8612
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;swjtu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+swjtu.edu.cn.		86373	IN	TXT	"v=spf1 ip4:180.85.37.200 ip4:180.85.37.201 include:spf.icoremail.net a:hwp1.icoremail.net -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 148
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT swu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33335
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;swu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+swu.edu.cn.		86373	IN	TXT	"v=spf1 ip4:222.198.120.188 ip4:222.198.120.189 include:spf.icoremail.net -all"
+
+;; Query time: 1 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 129
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT ouc.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36976
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;ouc.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+ouc.edu.cn.		3574	IN	TXT	"v=spf1 ip4:222.195.158.137 ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 83
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT hhu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37673
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;hhu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+hhu.edu.cn.		43174	IN	TXT	"v=spf1 ip4:202.119.112.48 ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 82
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT qq.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27545
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;qq.com.				IN	TXT
+
+;; ANSWER SECTION:
+qq.com.			6833	IN	TXT	"v=spf1 include:spf.mail.qq.com -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 83
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT mail.njust.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20808
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;mail.njust.edu.cn.		IN	TXT
+
+;; ANSWER SECTION:
+mail.njust.edu.cn.	7174	IN	CNAME	exmail.qq.com.
+exmail.qq.com.		1174	IN	TXT	"v=spf1 include:spf.mail.qq.com ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 121
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT hrbeu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30301
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;hrbeu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+HRBEU.edu.cn.		259174	IN	TXT	"v=spf1 ip4:202.118.176.10 ip4:202.118.176.9 ip4:202.118.176.6 -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 126
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT upc.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20333
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;upc.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+UPC.edu.cn.		86374	IN	TXT	"v=spf1 include:spf.mail.qq.com ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 91
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT nuaa.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34065
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;nuaa.edu.cn.			IN	TXT
+
+;; AUTHORITY SECTION:
+nuaa.edu.cn.		10776	IN	SOA	dns.nuaa.edu.cn. root.dns.nuaa.edu.cn. 20131120 28800 7200 604800 86400
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 85
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT zzu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46915
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;zzu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+zzu.edu.cn.		35976	IN	TXT	"v=spf1 ip4:202.196.64.0/24 -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 83
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT suda.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47671
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;suda.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+suda.edu.cn.		3576	IN	TXT	"v=spf1 include:spf.163.com ~all"
+suda.edu.cn.		3576	IN	TXT	"MS=60EDBA0EECA0DF1641F4F48E715FA743E3722A95"
+suda.edu.cn.		3576	IN	TXT	"v=spf1 ip4:58.211.251.178 ip4:202.195.128.34 ip4:42.244.42.244 ip4:42.244.42.245  ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 239
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT sufe.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40663
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;sufe.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+sufe.edu.cn.		3576	IN	TXT	"v=spf1 ip4:202.121.138.8 ip4:202.121.138.32 ip4:202.121.138.31 ip6:2001:da8:800d:1::4 -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 143
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT nwafu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39291
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;nwafu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+nwafu.edu.cn.		3576	IN	TXT	"v=spf1 include:spf.163.com -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 85
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT cupl.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46843
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;cupl.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+cupl.edu.cn.		3576	IN	TXT	"v=spf1 ip4:182.48.103.167 ip4:182.48.103.170 ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 102
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT hfut.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56782
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;hfut.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+hfut.edu.cn.		3577	IN	TXT	"v=spf1 include:spf.163.com -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 84
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT bupt.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9093
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;bupt.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+bupt.edu.cn.		1776	IN	TXT	"v=spf1 ip4:211.68.68.0/22 ip4:59.64.128.0/17 ip4:118.229.128.0/17 ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 123
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT xidian.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48671
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;xidian.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+xidian.edu.cn.		3576	IN	TXT	"v=spf1 ip4:202.117.112.58 ip4:202.117.112.56 a:hwp1.icoremail.net -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 125
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT m.scnu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54551
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;m.scnu.edu.cn.			IN	TXT
+
+;; AUTHORITY SECTION:
+scnu.edu.cn.		0	IN	SOA	scnu.edu.cn. root.hsnc.scnu.edu.cn. 2018061201 7200 3600 345600 43200
+
+;; Query time: 37 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 99
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT shu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22511
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;shu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+SHU.edu.cn.		3576	IN	TXT	"v=spf1 a mx ip4:202.120.127.0/24 ip4:202.120.126.0/24 ip4:202.120.115.0/24 ip4:202.66.31.37 ip4:202.66.31.34 -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 169
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT znufe.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27501
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;znufe.edu.cn.			IN	TXT
+
+;; AUTHORITY SECTION:
+znufe.edu.cn.		1776	IN	SOA	zncd.znufe.edu.cn. root.zncd.znufe.edu.cn. 2308 21600 10800 604800 172800
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 87
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT swufe.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16761
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;swufe.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+swufe.edu.cn.		277	IN	TXT	"v=spf1 ip4:202.115.123.90 ip4:202.115.118.92 ip4:171.221.3.151 ip4:202.115.123.19   include:spf.icoremail.net  ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 169
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT mail.buct.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60637
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;mail.buct.edu.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+buct.edu.cn.		3580	IN	SOA	ns2.buct.edu.cn. root.buct.edu.cn. 2018060801 3600 300 86400 3600
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 90
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT dhu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5885
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;dhu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+dhu.edu.cn.		3580	IN	TXT	"v=spf1 include:spf.163.com -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 83
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT cufe.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30299
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;cufe.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+cufe.edu.cn.		3580	IN	TXT	"v=spf1 include:spf.mail.qq.com ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 88
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT bjut.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12789
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;bjut.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+bjut.edu.cn.		3581	IN	TXT	"v=spf1 ip4:202.112.78.226/24 ip4:114.251.253.227/24 ip4:114.251.253.226/24 ip4:124.207.38.77/24 -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 153
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT snnu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49406
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;snnu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+snnu.edu.cn.		3581	IN	TXT	"v=spf1" "ip4:202.117.144.13" "ip4:61.185.190.253" "ip4:210.74.131.253" "ip4:113.200.212.125" "a:hwp1.icoremail.net" "-all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 162
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT bjfu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54923
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;bjfu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+BJFU.edu.cn.		86381	IN	TXT	"v=spf1 include:spf.mail.qq.com\009~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 93
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT ysu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62314
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;ysu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+ysu.edu.cn.		86381	IN	TXT	"v=spf1 ip4:202.206.240.11 ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 82
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT uibe.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47024
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;uibe.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+uibe.edu.cn.		3581	IN	TXT	"v=spf1 a mx ptr ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 73
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT cnu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47377
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;cnu.edu.cn.			IN	TXT
+
+;; AUTHORITY SECTION:
+cnu.edu.cn.		3581	IN	SOA	dns.cnu.edu.cn. root.cnu.edu.cn. 2018052201 3600 300 86400 3600
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 84
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT ncepu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 23004
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;ncepu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+ncepu.edu.cn.		3581	IN	TXT	"v=spf1 a mx mx:pop3.ncepu.edu.cn mx:smtp.ncepu.edu.cn mx:mail.ncepu.edu.cn ip4:111.207.1.0/24 ip4:202.204.65.8 ip4:202.204.65.21 ip4:202.204.65.16 ip4:202.204.65.20 ip4:202.204.65.13 ip4:202.204.65.9 ip4:202.175.86.249 ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 277
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT scau.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30461
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;scau.edu.cn.			IN	TXT
+
+;; AUTHORITY SECTION:
+scau.edu.cn.		3582	IN	SOA	SCAUSV1.scau.edu.cn. postmaster.SCAUSV1.scau.edu.cn. 20150902 3600 1800 604800 3600
+
+;; Query time: 1 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 95
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT zjnu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41870
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;zjnu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+zjnu.cn.		3582	IN	TXT	"v=spf1 include:spf.163.com -all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 80
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT ahu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56056
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;ahu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+ahu.edu.cn.		3582	IN	TXT	"v=spf1 ip4:101.76.160.123 -all"
+
+;; Query time: 1 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 82
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT jiangnan.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21723
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;jiangnan.edu.cn.		IN	TXT
+
+;; ANSWER SECTION:
+jiangnan.edu.cn.	582	IN	TXT	"v=spf1 include:spf.mail.qq.com ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 92
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT sxu.edu.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28931
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;sxu.edu.cn.			IN	TXT
+
+;; ANSWER SECTION:
+SXU.edu.cn.		3582	IN	TXT	"v=spf1 include:spf.mail.qq.com ~all"
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Wed Jun 13 17:10:56 CST 2018
+;; MSG SIZE  rcvd: 91
+
