@@ -25,24 +25,25 @@ def getMX(domain="tsinghua.edu.cn"):
 
 
 if __name__=="__main__":
-    fr=open("中国百强高校邮箱域名.txt",encoding="UTF-8")
-    fw=open("中国百强高校邮箱MX_IP.txt","w",encoding="UTF-8")
+    fr=open("alexa排名100邮箱.txt",encoding="UTF-8")
+    fw=open("alexa排名100邮箱MX_IP.txt","w",encoding="UTF-8")
 
     lines=fr.readlines()
     for line in lines:
-        info=line.strip().split(' ')
+        info=line.strip('\n').split(' ')
         #print(x)
         try:
-            exchangeList=getMX(info[1])
+            print("域名：",info[-1])
+            exchangeList=getMX(info[-1])
             #获取第一个 MX记录
             l1=exchangeList[0]
             mx=str(l1)[:-1]
+            print("mx:",mx)
             ip1=getIp(mx)
             print(ip1)
             fw.write(info[0]+" "+info[1]+" "+mx+" "+ip1+"\n")
         except:
             print("出现问题")
-
 
     fr.close()
     fw.close()

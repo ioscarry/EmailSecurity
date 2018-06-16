@@ -1,0 +1,44 @@
+U-Mail邮件服务器系统 comingchina.com mx1.spamgateway.cn 115.238.86.87
+新浪企业邮箱 sina.net mx.sinanet.com 218.30.114.254
+网易VIP163邮箱 vip.163.com vip163mx01.mxmail.netease.com 123.58.177.168
+网易企业邮箱  qiye163mx01.mxmail.netease.com 220.181.97.154
+盈世企业邮箱 icoremail.net mx.icoremail.net 223.252.214.44
+中国科学院邮件系统 mail.cstnet.cn mailtest.cstnet.cn 159.226.14.122
+尚易企业邮箱 corpease.net mx.corpease.net 223.252.214.174
+SYVIP免费电子信箱 syvip.com 1916572475.pamx1.hotmail.com 104.47.41.33
+容联云通讯 yuntongxun.com mail.yuntongxun.com 112.124.16.8
+阿里云邮箱 mail.aliyun.com mail.aliyun.com 140.205.78.2
+Skype官网 skype.com skype-com.mail.protection.outlook.com 23.103.156.74
+Foxmail foxmail.com mx3.qq.com 183.232.94.123
+企业邮箱 263.zj.cn mxw.263.net 211.150.82.6
+139邮箱 mail.10086.cn mx.mail.10086.cn 221.176.6.120
+263邮箱 263.net mxw.263.net 211.150.82.6
+中国邮箱网 mx.sina.net 202.108.7.254
+捷贝 jieyitong.net mxbiz2.qq.com 183.232.103.164
+QQ企业邮箱 exmail.qq.com mxbiz2.qq.com 183.232.103.164
+赛莱拉 saliai.com mail.saliai.com 183.59.158.195
+新浪VIP邮箱 vip.sina.com.cn mx1.vip.sina.com.cn 218.30.115.251
+Live800 live800.com mxbiz1.qq.com 183.232.103.164
+乐语 looyu.com mail.looyu.com 121.40.26.97
+小i机器人 xiaoi.com mxbiz1.qq.com 183.232.103.164
+2980邮箱 2980.com smtp.2980.com.dycdn.com 121.201.116.24
+EDM邮件群发器 magvision.com mx.spamgateway.cn 115.238.86.87
+YoMail邮箱客户端 yomail.com mail.yomail.com 
+Outlook邮箱 outlook.com outlook-com.olc.protection.outlook.com 104.47.49.33
+Eyou个人邮件系统 eyou.com 101.236.30.219 101.236.30.219
+中国联通 chinaunicom.com.cn ksg.chinaunicom.com.cn 210.53.66.250
+TOMVIP邮箱 163mx.cdn.163.net 106.3.154.33
+hotmail邮箱 hotmail.com hotmail-com.olc.protection.outlook.com 104.47.5.33
+IP-COM  mail.ip-com.com.cn 113.108.109.37
+中华邮个人邮箱 mail.china.com mx-mail-china-com.icoremail.net 223.252.214.74
+263企业邮箱 gmail.263.net mx01.263xmail.com 118.193.18.28
+网易免费企业邮 ym.163.com mx.ym.163.com 223.252.213.136
+邮箱大全 benpig.com mxdomain.qq.com 183.232.94.123
+中国无线门户 anywlan.com mxbiz2.qq.com 183.232.103.164
+21CN企业应用 21cn.net mta.21cn.com 183.61.185.83
+365webcall 365webcall.com 122.225.105.90 122.225.105.90
+126网易免费邮 126.com 126mx02.mxmail.netease.com 220.181.15.153
+盈世Coremail邮件系统 coremail.cn mx2.icoremail.net 223.252.214.67
+网易VIP126邮箱 vip.126.com vip126mx00.mxmail.netease.com 123.58.177.237
+188财富邮 188.com 188mx00.mxmail.netease.com 123.58.177.55
+搜狐企业云服务平台 sohu.net mx.mail.sohu.net 220.181.69.201

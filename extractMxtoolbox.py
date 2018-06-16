@@ -3,7 +3,7 @@
 '''
 import re
 from bs4 import BeautifulSoup
-f=open("slenium网页查询得到的结果.txt",'r')
+f=open("slenium网页查询得到的结果2.txt",'r')
 res=f.read()
 soup=BeautifulSoup(res,"html.parser")
 
@@ -28,10 +28,11 @@ for k in soup.find_all("tbody"):
 # print(infoList)
 # print(responseList)
 # print(len(infoList))
-# print(len(nameList))
+print(len(nameList))
 # print(len(responseList))
 count=0
 notSupportTls=[]
+notSupportIndex=[]
 for i in range(len(nameList)):
     name=nameList[i]
     response=responseList[i]
@@ -45,7 +46,9 @@ for i in range(len(nameList)):
             count+=1
         except:
             notSupportTls.append(infoList[i])
+            notSupportIndex.append(i)
             print("name:",response)
 print("支持数目:",count)
 print("不支持:",notSupportTls)
 print("不支持数目:",len(notSupportTls))
+print("不支持编号:",notSupportIndex)

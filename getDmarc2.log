@@ -1,0 +1,881 @@
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.comingchina.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32955
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.comingchina.com.		IN	TXT
+
+;; AUTHORITY SECTION:
+comingchina.com.	600	IN	SOA	f1g1ns1.dnspod.net. freednsadmin.dnspod.com. 1528716062 3600 180 1209600 180
+
+;; Query time: 29 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:47 CST 2018
+;; MSG SIZE  rcvd: 128
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.sina.net
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51637
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.sina.net.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.sina.net.	60	IN	TXT	"v=spf1 include:spf.sinamail.sina.com.cn -all"
+
+;; Query time: 27 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:47 CST 2018
+;; MSG SIZE  rcvd: 101
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.vip.163.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54098
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.vip.163.com.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.vip.163.com.	18000	IN	TXT	"v=DMARC1; p=none;"
+
+;; Query time: 3 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:47 CST 2018
+;; MSG SIZE  rcvd: 77
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 12441
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.				IN	TXT
+
+;; AUTHORITY SECTION:
+.			86390	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018061300 1800 900 604800 86400
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:47 CST 2018
+;; MSG SIZE  rcvd: 110
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.icoremail.net
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65167
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.icoremail.net.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.icoremail.net.	180	IN	CNAME	mail1.icoremail.net.
+mail1.icoremail.net.	180	IN	TXT	"v=spf1 include:spf.icoremail.net -all"
+
+;; Query time: 85 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:47 CST 2018
+;; MSG SIZE  rcvd: 119
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.mail.cstnet.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 35631
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.mail.cstnet.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+cstnet.cn.		10800	IN	SOA	panda.cstnet.cn. dns-admin.cstnet.cn. 2018021001 3600 3600 3600000 86400
+
+;; Query time: 3 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:47 CST 2018
+;; MSG SIZE  rcvd: 111
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.corpease.net
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 8215
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.corpease.net.		IN	TXT
+
+;; AUTHORITY SECTION:
+corpease.net.		3600	IN	SOA	ns1.bee-net.com. postmaster.bee-net.com. 2018041000 7200 3600 604800 3600
+
+;; Query time: 999 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:48 CST 2018
+;; MSG SIZE  rcvd: 110
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.syvip.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41593
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.syvip.com.		IN	TXT
+
+;; AUTHORITY SECTION:
+syvip.com.		600	IN	SOA	f1g1ns1.dnspod.net. freednsadmin.dnspod.com. 1528889017 3600 180 1209600 180
+
+;; Query time: 29 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:48 CST 2018
+;; MSG SIZE  rcvd: 122
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.yuntongxun.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39218
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.yuntongxun.com.		IN	TXT
+
+;; AUTHORITY SECTION:
+yuntongxun.com.		600	IN	SOA	f1g1ns1.dnspod.net. freednsadmin.dnspod.com. 1528108121 3600 180 1209600 180
+
+;; Query time: 31 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:48 CST 2018
+;; MSG SIZE  rcvd: 127
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.mail.aliyun.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10218
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.mail.aliyun.com.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.mail.aliyun.com.	3600	IN	TXT	"v=DMARC1; p=quarantine; rua=mailto:dmarc@service.alibaba.com; ruf=mailto:dmarc@service.alibaba.com"
+
+;; Query time: 35 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:48 CST 2018
+;; MSG SIZE  rcvd: 162
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.skype.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56089
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.skype.com.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.skype.com.	3600	IN	TXT	"v=DMARC1; p=reject; pct=100; rua=mailto:d@rua.agari.com,mailto:skype@rua.netcraft.com; fo=1; ruf=mailto:d@rua.agari.com,mailto:skype@ruf.netcraft.com;"
+
+;; Query time: 222 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:48 CST 2018
+;; MSG SIZE  rcvd: 208
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.foxmail.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55631
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.foxmail.com.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.foxmail.com.	3600	IN	TXT	"v=DMARC1; p=none; rua=mailto:mailauth-reports@qq.com"
+
+;; Query time: 71 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:48 CST 2018
+;; MSG SIZE  rcvd: 112
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.263.zj.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 42550
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.263.zj.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+263.zj.cn.		600	IN	SOA	dns27.hichina.com. hostmaster.hichina.com. 1 3600 1200 3600 600
+
+;; Query time: 41 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:48 CST 2018
+;; MSG SIZE  rcvd: 109
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.mail.10086.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 32524
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.mail.10086.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+mail.10086.cn.		3600	IN	SOA	mailns1.10086.cn. hostmaster.mail.10086.cn. 2010118376 3600 3600 86400 3600
+
+;; Query time: 59 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:48 CST 2018
+;; MSG SIZE  rcvd: 112
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.263.net
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 54902
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.263.net.			IN	TXT
+
+;; AUTHORITY SECTION:
+263.net.		10800	IN	SOA	ns.capital-online.com.cn. root.ns.capital-online.com.cn. 210062602 1800 300 604800 14400
+
+;; Query time: 28 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:48 CST 2018
+;; MSG SIZE  rcvd: 108
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.中国邮箱网
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 3863
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.\228\184\173\229\155\189\233\130\174\231\174\177\231\189\145. IN	TXT
+
+;; AUTHORITY SECTION:
+.			10800	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018061300 1800 900 604800 86400
+
+;; Query time: 205 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:49 CST 2018
+;; MSG SIZE  rcvd: 126
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.jieyitong.net
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 16367
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.jieyitong.net.		IN	TXT
+
+;; AUTHORITY SECTION:
+jieyitong.net.		600	IN	SOA	dns31.hichina.com. hostmaster.hichina.com. 1 3600 1200 3600 600
+
+;; Query time: 41 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:49 CST 2018
+;; MSG SIZE  rcvd: 113
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.exmail.qq.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53848
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.exmail.qq.com.		IN	TXT
+
+;; AUTHORITY SECTION:
+exmail.qq.com.		10800	IN	SOA	ns-tel1.qq.com. webmaster.qq.com. 1277374542 300 600 86400 300
+
+;; Query time: 28 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:49 CST 2018
+;; MSG SIZE  rcvd: 109
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.saliai.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 619
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.saliai.com.		IN	TXT
+
+;; AUTHORITY SECTION:
+saliai.com.		600	IN	SOA	dns9.hichina.com. hostmaster.hichina.com. 2016052512 3600 1200 3600 360
+
+;; Query time: 30 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:49 CST 2018
+;; MSG SIZE  rcvd: 109
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.vip.sina.com.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8570
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.vip.sina.com.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+vip.sina.com.cn.	60	IN	SOA	ns1.sina.com.cn. zhihao.staff.sina.com.cn. 2 1800 600 604801 600
+
+;; Query time: 27 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:49 CST 2018
+;; MSG SIZE  rcvd: 126
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.live800.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45657
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.live800.com.		IN	TXT
+
+;; AUTHORITY SECTION:
+live800.com.		600	IN	SOA	ns3.dnsv4.com. enterprise2dnsadmin.dnspod.com. 1528713560 3600 180 1209600 180
+
+;; Query time: 41 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:49 CST 2018
+;; MSG SIZE  rcvd: 126
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.looyu.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 61184
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.looyu.com.		IN	TXT
+
+;; AUTHORITY SECTION:
+looyu.com.		3600	IN	SOA	ns.looyu.com. looyu.com. 20180312 28800 7200 2419200 86400
+
+;; Query time: 235 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:49 CST 2018
+;; MSG SIZE  rcvd: 84
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.xiaoi.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41654
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.xiaoi.com.		IN	TXT
+
+;; AUTHORITY SECTION:
+xiaoi.com.		600	IN	SOA	ns3.dnsv3.com. enterprise1dnsadmin.dnspod.com. 1527308871 3600 180 1209600 180
+
+;; Query time: 5 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:49 CST 2018
+;; MSG SIZE  rcvd: 124
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.2980.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 35335
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.2980.com.		IN	TXT
+
+;; AUTHORITY SECTION:
+2980.com.		3600	IN	SOA	dns1.2980.com. hostmaster.dns1.2980.com. 274 900 600 86400 3600
+
+;; Query time: 14 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:49 CST 2018
+;; MSG SIZE  rcvd: 96
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.magvision.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49788
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.magvision.com.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.magvision.com.	600	IN	TXT	"v=spf1 include:spf.bestedm.org -all"
+
+;; Query time: 30 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:49 CST 2018
+;; MSG SIZE  rcvd: 97
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.yomail.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 53043
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.yomail.com.		IN	TXT
+
+;; AUTHORITY SECTION:
+yomail.com.		900	IN	SOA	ns-1155.awsdns-16.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+
+;; Query time: 390 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:50 CST 2018
+;; MSG SIZE  rcvd: 131
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.outlook.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7985
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.outlook.com.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.outlook.com.	3600	IN	TXT	"v=DMARC1; p=none; sp=quarantine; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com; fo=1"
+
+;; Query time: 238 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:50 CST 2018
+;; MSG SIZE  rcvd: 162
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.eyou.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19730
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.eyou.com.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.eyou.com.	600	IN	TXT	"v=DMARC1; p=none; rua=mailto:infile2@eyou.com"
+
+;; Query time: 32 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:50 CST 2018
+;; MSG SIZE  rcvd: 102
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.chinaunicom.com.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 21842
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.chinaunicom.com.cn.	IN	TXT
+
+;; AUTHORITY SECTION:
+chinaunicom.com.cn.	60	IN	SOA	chinaunicom.com.cn. root.cnuninet.com. 2017072800 10800 3600 3600000 3600
+
+;; Query time: 28 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:50 CST 2018
+;; MSG SIZE  rcvd: 107
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.VIP邮箱
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 7871
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.VIP\233\130\174\231\174\177. IN	TXT
+
+;; AUTHORITY SECTION:
+.			10800	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018061300 1800 900 604800 86400
+
+;; Query time: 214 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:50 CST 2018
+;; MSG SIZE  rcvd: 120
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.hotmail.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44417
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.hotmail.com.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.hotmail.com.	3600	IN	TXT	"v=DMARC1; p=none; sp=quarantine; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com; fo=1"
+
+;; Query time: 229 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:50 CST 2018
+;; MSG SIZE  rcvd: 162
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 15154
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.				IN	TXT
+
+;; AUTHORITY SECTION:
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018061300 1800 900 604800 86400
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:50 CST 2018
+;; MSG SIZE  rcvd: 110
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.mail.china.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 42575
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.mail.china.com.		IN	TXT
+
+;; AUTHORITY SECTION:
+china.com.		500	IN	SOA	dns.china.com. postmaster.dns.china.com. 2018061206 1800 600 604800 3600
+
+;; Query time: 4 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:50 CST 2018
+;; MSG SIZE  rcvd: 110
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.gmail.263.net
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 8096
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.gmail.263.net.		IN	TXT
+
+;; AUTHORITY SECTION:
+263.net.		10800	IN	SOA	ns.capital-online.com.cn. root.ns.capital-online.com.cn. 210062602 1800 300 604800 14400
+
+;; Query time: 82 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:51 CST 2018
+;; MSG SIZE  rcvd: 121
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.ym.163.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 30399
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.ym.163.com.		IN	TXT
+
+;; AUTHORITY SECTION:
+163.com.		60	IN	SOA	ns4.nease.net. admin.nease.net. 20161877 7200 1800 1209600 60
+
+;; Query time: 3 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:51 CST 2018
+;; MSG SIZE  rcvd: 108
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.benpig.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5089
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.benpig.com.		IN	TXT
+
+;; AUTHORITY SECTION:
+benpig.com.		600	IN	SOA	f1g1ns1.dnspod.net. freednsadmin.dnspod.com. 1522399552 3600 180 1209600 180
+
+;; Query time: 28 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:51 CST 2018
+;; MSG SIZE  rcvd: 123
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.anywlan.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 53995
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.anywlan.com.		IN	TXT
+
+;; AUTHORITY SECTION:
+anywlan.com.		600	IN	SOA	dns.bizcn.com. abuse.bizcn.com. 59 28800 14400 14400 600
+
+;; Query time: 62 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:51 CST 2018
+;; MSG SIZE  rcvd: 102
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.21cn.net
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55499
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.21cn.net.		IN	TXT
+
+;; AUTHORITY SECTION:
+21cn.net.		1200	IN	SOA	cdnns.21cn.com. root.cdnns.21cn.com. 2017101902 3600 1200 86400 1200
+
+;; Query time: 38 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:51 CST 2018
+;; MSG SIZE  rcvd: 99
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.365webcall.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25706
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.365webcall.com.		IN	TXT
+
+;; AUTHORITY SECTION:
+365webcall.com.		600	IN	SOA	ns1.dnsv2.com. level3dnsadmin.dnspod.com. 1528356822 3600 180 1209600 180
+
+;; Query time: 28 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:51 CST 2018
+;; MSG SIZE  rcvd: 124
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.126.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37891
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.126.com.			IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.126.com.		18000	IN	TXT	"v=DMARC1; p=none;"
+
+;; Query time: 2 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:51 CST 2018
+;; MSG SIZE  rcvd: 73
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.coremail.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 16659
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.coremail.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+coremail.cn.		3600	IN	SOA	ns1.corpease.net. postmaster.corpease.net. 2018030100 10800 3600 604800 3600
+
+;; Query time: 208 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:51 CST 2018
+;; MSG SIZE  rcvd: 110
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.vip.126.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48647
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.vip.126.com.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.vip.126.com.	18000	IN	TXT	"v=DMARC1; p=none;"
+
+;; Query time: 2 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:51 CST 2018
+;; MSG SIZE  rcvd: 77
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.188.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 19953
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.188.com.			IN	TXT
+
+;; AUTHORITY SECTION:
+188.com.		60	IN	SOA	ns4.nease.net. admin.nease.net. 20160710 7200 1800 1209600 60
+
+;; Query time: 2 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:51 CST 2018
+;; MSG SIZE  rcvd: 98
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT _dmarc.sohu.net
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22918
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.sohu.net.		IN	TXT
+
+;; AUTHORITY SECTION:
+sohu.net.		60	IN	SOA	ns11.sohu.com. dnsadmin.sohu-inc.com. 170601001 28800 7200 1209600 60
+
+;; Query time: 3 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:45:51 CST 2018
+;; MSG SIZE  rcvd: 114
+

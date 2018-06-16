@@ -1,0 +1,952 @@
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT comingchina.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60487
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;comingchina.com.		IN	TXT
+
+;; ANSWER SECTION:
+comingchina.com.	600	IN	TXT	"v=spf1 include:spf.mailrelay.cn include:spf.bestedm.org -all"
+
+;; Query time: 495 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:25 CST 2018
+;; MSG SIZE  rcvd: 117
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT sina.net
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47443
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;sina.net.			IN	TXT
+
+;; ANSWER SECTION:
+sina.net.		60	IN	TXT	"v=spf1 include:spf.sinamail.sina.com.cn -all"
+
+;; Query time: 403 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:26 CST 2018
+;; MSG SIZE  rcvd: 94
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT vip.163.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18241
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;vip.163.com.			IN	TXT
+
+;; ANSWER SECTION:
+vip.163.com.		1800	IN	TXT	"v=spf1 include:spf.163.com -all"
+
+;; Query time: 3 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:26 CST 2018
+;; MSG SIZE  rcvd: 84
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63513
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 13, AUTHORITY: 0, ADDITIONAL: 20
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;.				IN	NS
+
+;; ANSWER SECTION:
+.			337219	IN	NS	a.root-servers.net.
+.			337219	IN	NS	b.root-servers.net.
+.			337219	IN	NS	c.root-servers.net.
+.			337219	IN	NS	d.root-servers.net.
+.			337219	IN	NS	e.root-servers.net.
+.			337219	IN	NS	f.root-servers.net.
+.			337219	IN	NS	g.root-servers.net.
+.			337219	IN	NS	h.root-servers.net.
+.			337219	IN	NS	i.root-servers.net.
+.			337219	IN	NS	j.root-servers.net.
+.			337219	IN	NS	k.root-servers.net.
+.			337219	IN	NS	l.root-servers.net.
+.			337219	IN	NS	m.root-servers.net.
+
+;; ADDITIONAL SECTION:
+a.root-servers.net.	78010	IN	A	198.41.0.4
+b.root-servers.net.	577477	IN	A	199.9.14.201
+c.root-servers.net.	577477	IN	A	192.33.4.12
+d.root-servers.net.	577477	IN	A	199.7.91.13
+e.root-servers.net.	577477	IN	A	192.203.230.10
+f.root-servers.net.	577478	IN	A	192.5.5.241
+g.root-servers.net.	577479	IN	A	192.112.36.4
+h.root-servers.net.	577479	IN	A	198.97.190.53
+i.root-servers.net.	577479	IN	A	192.36.148.17
+j.root-servers.net.	577480	IN	A	192.58.128.30
+k.root-servers.net.	577480	IN	A	193.0.14.129
+l.root-servers.net.	577480	IN	A	199.7.83.42
+m.root-servers.net.	577480	IN	A	202.12.27.33
+a.root-servers.net.	577476	IN	AAAA	2001:503:ba3e::2:30
+b.root-servers.net.	577476	IN	AAAA	2001:500:200::b
+c.root-servers.net.	577477	IN	AAAA	2001:500:2::c
+d.root-servers.net.	577477	IN	AAAA	2001:500:2d::d
+e.root-servers.net.	577478	IN	AAAA	2001:500:a8::e
+f.root-servers.net.	577478	IN	AAAA	2001:500:2f::f
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:26 CST 2018
+;; MSG SIZE  rcvd: 627
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT icoremail.net
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61963
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;icoremail.net.			IN	TXT
+
+;; ANSWER SECTION:
+icoremail.net.		180	IN	TXT	"v=spf1 include:spf.icoremail.net -all"
+
+;; Query time: 469 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:26 CST 2018
+;; MSG SIZE  rcvd: 92
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT mail.cstnet.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62019
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;mail.cstnet.cn.			IN	TXT
+
+;; AUTHORITY SECTION:
+cstnet.cn.		10800	IN	SOA	panda.cstnet.cn. dns-admin.cstnet.cn. 2018021001 3600 3600 3600000 86400
+
+;; Query time: 2 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:26 CST 2018
+;; MSG SIZE  rcvd: 95
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT corpease.net
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8145
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;corpease.net.			IN	TXT
+
+;; ANSWER SECTION:
+corpease.net.		3600	IN	TXT	"v=spf1 include:spf.corpease.net ~all"
+
+;; Query time: 433 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:27 CST 2018
+;; MSG SIZE  rcvd: 90
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT syvip.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50179
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;syvip.com.			IN	TXT
+
+;; ANSWER SECTION:
+syvip.com.		3600	IN	TXT	"v=spf1 include:hotmail.com ~all"
+
+;; Query time: 496 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:27 CST 2018
+;; MSG SIZE  rcvd: 82
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT yuntongxun.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51824
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;yuntongxun.com.			IN	TXT
+
+;; ANSWER SECTION:
+yuntongxun.com.		600	IN	TXT	"v=spf1 ip4:121.199.48.223/32 ip4:115.29.188.177/32 ip4:112.124.16.8/32 mx include:mail.cloopen.com include:mail.yuntongxun.com include:yuntongxun.com include:anxunguantong.com -all"
+
+;; Query time: 497 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:28 CST 2018
+;; MSG SIZE  rcvd: 236
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT mail.aliyun.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15865
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;mail.aliyun.com.		IN	TXT
+
+;; AUTHORITY SECTION:
+aliyun.com.		600	IN	SOA	hidden-master.aliyun.com. hostmaster.alibaba-inc.com. 2014042653 3600 900 1209600 600
+
+;; Query time: 30 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:28 CST 2018
+;; MSG SIZE  rcvd: 120
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT skype.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50961
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;skype.com.			IN	TXT
+
+;; ANSWER SECTION:
+skype.com.		3600	IN	TXT	"v=msv1 t=6097A7EA-53F7-4028-BA76-6869CB284C54"
+skype.com.		3600	IN	TXT	"facebook-domain-verification=87pranlm54pxjnpg1lp1nc3bcanv3f"
+skype.com.		3600	IN	TXT	"v=spf1 include:_spf-ssg-a.microsoft.com ip4:91.190.218.48 ip4:91.190.216.100 -all"
+
+;; Query time: 209 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:28 CST 2018
+;; MSG SIZE  rcvd: 262
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT foxmail.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24586
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;foxmail.com.			IN	TXT
+
+;; ANSWER SECTION:
+foxmail.com.		7200	IN	TXT	"v=spf1 include:spf.mail.qq.com ~all"
+
+;; Query time: 240 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:28 CST 2018
+;; MSG SIZE  rcvd: 88
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT 263.zj.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38447
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;263.zj.cn.			IN	TXT
+
+;; ANSWER SECTION:
+263.zj.cn.		3600	IN	TXT	"v=spf1 include:spf.263xmail.com ~all"
+
+;; Query time: 131 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:28 CST 2018
+;; MSG SIZE  rcvd: 87
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT mail.10086.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42731
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;mail.10086.cn.			IN	TXT
+
+;; AUTHORITY SECTION:
+mail.10086.cn.		3600	IN	SOA	mailns1.10086.cn. hostmaster.mail.10086.cn. 2010118376 3600 3600 86400 3600
+
+;; Query time: 116 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:29 CST 2018
+;; MSG SIZE  rcvd: 97
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT 263.net
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4739
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;263.net.			IN	TXT
+
+;; ANSWER SECTION:
+263.net.		14400	IN	TXT	"v=spf1 include:spf.263.net -all"
+
+;; Query time: 509 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:29 CST 2018
+;; MSG SIZE  rcvd: 80
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT 中国邮箱网
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 62316
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;\228\184\173\229\155\189\233\130\174\231\174\177\231\189\145. IN TXT
+
+;; AUTHORITY SECTION:
+.			10800	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018061300 1800 900 604800 86400
+
+;; Query time: 235 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:29 CST 2018
+;; MSG SIZE  rcvd: 119
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT jieyitong.net
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10606
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;jieyitong.net.			IN	TXT
+
+;; ANSWER SECTION:
+jieyitong.net.		600	IN	TXT	"v=spf1 include:spf.mail.qq.com ~all"
+
+;; Query time: 552 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:30 CST 2018
+;; MSG SIZE  rcvd: 90
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT exmail.qq.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8072
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;exmail.qq.com.			IN	TXT
+
+;; ANSWER SECTION:
+exmail.qq.com.		1200	IN	TXT	"v=spf1 include:spf.mail.qq.com ~all"
+
+;; Query time: 28 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:30 CST 2018
+;; MSG SIZE  rcvd: 90
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT saliai.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54631
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;saliai.com.			IN	TXT
+
+;; AUTHORITY SECTION:
+saliai.com.		600	IN	SOA	dns9.hichina.com. hostmaster.hichina.com. 2016052512 3600 1200 3600 360
+
+;; Query time: 499 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:31 CST 2018
+;; MSG SIZE  rcvd: 102
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT vip.sina.com.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28885
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;vip.sina.com.cn.		IN	TXT
+
+;; ANSWER SECTION:
+vip.sina.com.cn.	60	IN	TXT	"v=spf1 include:spf.sinamail.sina.com.cn -all"
+
+;; Query time: 38 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:31 CST 2018
+;; MSG SIZE  rcvd: 101
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT live800.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46823
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;live800.com.			IN	TXT
+
+;; ANSWER SECTION:
+live800.com.		600	IN	TXT	"v=spf1 include:spf.mail.qq.com ~all"
+
+;; Query time: 40 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:31 CST 2018
+;; MSG SIZE  rcvd: 88
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT looyu.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48290
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;looyu.com.			IN	TXT
+
+;; ANSWER SECTION:
+looyu.com.		3600	IN	TXT	"v=spf1 121.40.26.97/25 -all"
+
+;; Query time: 1070 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:32 CST 2018
+;; MSG SIZE  rcvd: 78
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT xiaoi.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25149
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;xiaoi.com.			IN	TXT
+
+;; AUTHORITY SECTION:
+xiaoi.com.		600	IN	SOA	ns3.dnsv3.com. enterprise1dnsadmin.dnspod.com. 1527308871 3600 180 1209600 180
+
+;; Query time: 473 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:32 CST 2018
+;; MSG SIZE  rcvd: 117
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT 2980.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44503
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;2980.com.			IN	TXT
+
+;; AUTHORITY SECTION:
+2980.com.		3600	IN	SOA	dns1.2980.com. hostmaster.dns1.2980.com. 274 900 600 86400 3600
+
+;; Query time: 256 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:32 CST 2018
+;; MSG SIZE  rcvd: 89
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT magvision.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64977
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;magvision.com.			IN	TXT
+
+;; ANSWER SECTION:
+magvision.com.		600	IN	TXT	"v=spf1 ip4:202.105.113.145 ip4:202.103.191.0/24 include:spf.mailrelay.cn include:spf.bestedm.org -all"
+
+;; Query time: 497 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:33 CST 2018
+;; MSG SIZE  rcvd: 156
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT yomail.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58451
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;yomail.com.			IN	TXT
+
+;; AUTHORITY SECTION:
+yomail.com.		900	IN	SOA	ns-1155.awsdns-16.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+
+;; Query time: 787 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:34 CST 2018
+;; MSG SIZE  rcvd: 124
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT outlook.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47656
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;outlook.com.			IN	TXT
+
+;; ANSWER SECTION:
+outlook.com.		300	IN	TXT	"google-site-verification=0iLWhIMhXEkeWwWfFU4ursTn-_OvoOjaA0Lr7Pg1sEM"
+outlook.com.		300	IN	TXT	"google-site-verification=DC2uC-T8kD33lINhNzfo0bNBrw-vrCXs5BPF5BXY56g"
+outlook.com.		300	IN	TXT	"v=spf1 include:spf-a.outlook.com include:spf-b.outlook.com ip4:157.55.9.128/25 include:spf.protection.outlook.com include:spf-a.hotmail.com include:_spf-ssg-b.microsoft.com include:_spf-ssg-c.microsoft.com ~all"
+
+;; Query time: 1061 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:35 CST 2018
+;; MSG SIZE  rcvd: 425
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT eyou.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47809
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;eyou.com.			IN	TXT
+
+;; ANSWER SECTION:
+eyou.com.		120	IN	TXT	"v=spf1 ip4:101.236.4.231 ip4:101.236.30.219 -all"
+
+;; Query time: 507 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:35 CST 2018
+;; MSG SIZE  rcvd: 98
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT chinaunicom.com.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48974
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;chinaunicom.com.cn.		IN	TXT
+
+;; AUTHORITY SECTION:
+chinaunicom.com.cn.	60	IN	SOA	chinaunicom.com.cn. root.cnuninet.com. 2017072800 10800 3600 3600000 3600
+
+;; Query time: 168 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:36 CST 2018
+;; MSG SIZE  rcvd: 100
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT VIP邮箱
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 30185
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;VIP\233\130\174\231\174\177.	IN	TXT
+
+;; AUTHORITY SECTION:
+.			10800	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018061300 1800 900 604800 86400
+
+;; Query time: 210 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:36 CST 2018
+;; MSG SIZE  rcvd: 113
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT hotmail.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18613
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;hotmail.com.			IN	TXT
+
+;; ANSWER SECTION:
+hotmail.com.		3600	IN	TXT	"google-site-verification=gqFmgDKSUd3XGU_AzWWdojRHtW3_66W_PC3oFvQVZEw"
+hotmail.com.		3600	IN	TXT	"v=spf1 ip4:157.55.9.128/25 include:spf.protection.outlook.com include:spf-a.outlook.com include:spf-b.outlook.com include:spf-a.hotmail.com include:_spf-ssg-b.microsoft.com include:_spf-ssg-c.microsoft.com ~all"
+
+;; Query time: 443 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:36 CST 2018
+;; MSG SIZE  rcvd: 344
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3019
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 13, AUTHORITY: 0, ADDITIONAL: 20
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;.				IN	NS
+
+;; ANSWER SECTION:
+.			337208	IN	NS	a.root-servers.net.
+.			337208	IN	NS	b.root-servers.net.
+.			337208	IN	NS	c.root-servers.net.
+.			337208	IN	NS	d.root-servers.net.
+.			337208	IN	NS	e.root-servers.net.
+.			337208	IN	NS	f.root-servers.net.
+.			337208	IN	NS	g.root-servers.net.
+.			337208	IN	NS	h.root-servers.net.
+.			337208	IN	NS	i.root-servers.net.
+.			337208	IN	NS	j.root-servers.net.
+.			337208	IN	NS	k.root-servers.net.
+.			337208	IN	NS	l.root-servers.net.
+.			337208	IN	NS	m.root-servers.net.
+
+;; ADDITIONAL SECTION:
+a.root-servers.net.	77999	IN	A	198.41.0.4
+b.root-servers.net.	577466	IN	A	199.9.14.201
+c.root-servers.net.	577466	IN	A	192.33.4.12
+d.root-servers.net.	577466	IN	A	199.7.91.13
+e.root-servers.net.	577466	IN	A	192.203.230.10
+f.root-servers.net.	577467	IN	A	192.5.5.241
+g.root-servers.net.	577468	IN	A	192.112.36.4
+h.root-servers.net.	577468	IN	A	198.97.190.53
+i.root-servers.net.	577468	IN	A	192.36.148.17
+j.root-servers.net.	577469	IN	A	192.58.128.30
+k.root-servers.net.	577469	IN	A	193.0.14.129
+l.root-servers.net.	577469	IN	A	199.7.83.42
+m.root-servers.net.	577469	IN	A	202.12.27.33
+a.root-servers.net.	577465	IN	AAAA	2001:503:ba3e::2:30
+b.root-servers.net.	577465	IN	AAAA	2001:500:200::b
+c.root-servers.net.	577466	IN	AAAA	2001:500:2::c
+d.root-servers.net.	577466	IN	AAAA	2001:500:2d::d
+e.root-servers.net.	577467	IN	AAAA	2001:500:a8::e
+f.root-servers.net.	577467	IN	AAAA	2001:500:2f::f
+
+;; Query time: 0 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:36 CST 2018
+;; MSG SIZE  rcvd: 627
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT mail.china.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29896
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;mail.china.com.			IN	TXT
+
+;; AUTHORITY SECTION:
+china.com.		500	IN	SOA	dns.china.com. postmaster.dns.china.com. 2018061206 1800 600 604800 3600
+
+;; Query time: 239 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:37 CST 2018
+;; MSG SIZE  rcvd: 94
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT gmail.263.net
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4168
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;gmail.263.net.			IN	TXT
+
+;; AUTHORITY SECTION:
+263.net.		10800	IN	SOA	ns.capital-online.com.cn. root.ns.capital-online.com.cn. 210062602 1800 300 604800 14400
+
+;; Query time: 828 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:37 CST 2018
+;; MSG SIZE  rcvd: 107
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT ym.163.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57008
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;ym.163.com.			IN	TXT
+
+;; ANSWER SECTION:
+ym.163.com.		3600	IN	TXT	"v=spf1 include:spf.163.com -all"
+
+;; Query time: 2 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:37 CST 2018
+;; MSG SIZE  rcvd: 83
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT benpig.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52446
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;benpig.com.			IN	TXT
+
+;; ANSWER SECTION:
+benpig.com.		600	IN	TXT	"v=spf1 include:spf.mail.qq.com ~all"
+
+;; Query time: 580 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:38 CST 2018
+;; MSG SIZE  rcvd: 87
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT anywlan.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 17016
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;anywlan.com.			IN	TXT
+
+;; ANSWER SECTION:
+anywlan.com.		3600	IN	TXT	"v=spf1" "include:spf.163.com" "~all"
+
+;; Query time: 286 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:38 CST 2018
+;; MSG SIZE  rcvd: 84
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT 21cn.net
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63155
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;21cn.net.			IN	TXT
+
+;; ANSWER SECTION:
+21cn.net.		36000	IN	TXT	"v=spf1 include:mail-spf.21cn.com include:hwmail-spf.21cn.com  -all"
+
+;; Query time: 272 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:39 CST 2018
+;; MSG SIZE  rcvd: 116
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT 365webcall.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11671
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;365webcall.com.			IN	TXT
+
+;; AUTHORITY SECTION:
+365webcall.com.		600	IN	SOA	ns1.dnsv2.com. level3dnsadmin.dnspod.com. 1528356822 3600 180 1209600 180
+
+;; Query time: 538 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:39 CST 2018
+;; MSG SIZE  rcvd: 117
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT 126.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45823
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;126.com.			IN	TXT
+
+;; ANSWER SECTION:
+126.com.		18000	IN	TXT	"v=spf1 include:spf.163.com -all"
+
+;; Query time: 3 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:39 CST 2018
+;; MSG SIZE  rcvd: 80
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT coremail.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46889
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;coremail.cn.			IN	TXT
+
+;; ANSWER SECTION:
+coremail.cn.		3600	IN	TXT	"jl3440s4kdd01u9r1rmcsmklto"
+coremail.cn.		3600	IN	TXT	"v=spf1 include:spf.icoremail.net -all"
+
+;; Query time: 1051 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:40 CST 2018
+;; MSG SIZE  rcvd: 129
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT vip.126.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4636
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;vip.126.com.			IN	TXT
+
+;; ANSWER SECTION:
+vip.126.com.		3600	IN	TXT	"v=spf1 include:spf.163.com -all"
+
+;; Query time: 2 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:40 CST 2018
+;; MSG SIZE  rcvd: 84
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT 188.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15630
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;188.com.			IN	TXT
+
+;; ANSWER SECTION:
+188.com.		18000	IN	TXT	"v=spf1 include:spf.163.com -all"
+
+;; Query time: 240 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:40 CST 2018
+;; MSG SIZE  rcvd: 80
+
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> TXT sohu.net
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59612
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;sohu.net.			IN	TXT
+
+;; ANSWER SECTION:
+sohu.net.		3600	IN	TXT	"v=spf1 ip4:61.135.130.0/23 ip4:61.135.132.0/23 ip4:61.135.134.0/23 ip4:61.135.145.0/23 ip4:61.135.150.0/23 ip4:220.181.26.0/24 ip4:222.28.152.128/25 ip4:218.206.87.0/25 ip4:221.236.12.128 ip4:203.184.141.0/24 ip4:61.152.234.0/24 ip4:111.202.126.103 ~all"
+
+;; Query time: 237 msec
+;; SERVER: 101.6.6.6#53(101.6.6.6)
+;; WHEN: Thu Jun 14 00:44:41 CST 2018
+;; MSG SIZE  rcvd: 303
+
